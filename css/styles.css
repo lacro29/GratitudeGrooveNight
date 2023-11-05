@@ -1,0 +1,221 @@
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+  height: 55px;
+}
+
+#heading {
+	float: left;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+
+}
+
+h1 {
+	margin: 0px;
+	font: bold;
+
+}
+
+#nav-list {
+	text-align: center;
+
+}
+
+#p {
+	background-color: gray;
+	color: white;
+	height: 1000px;
+}
+
+#collapsable-nav {
+	background-color: #0082e6;
+	display: block;
+}
+
+body {
+	font-family: Anton;
+	font-size: 300%;
+	background-color: black;
+	color: ghostwhite;
+	
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+nav {
+	background:white;
+	height: 80px;
+	width: 100%
+}
+label.logo {
+	color: black;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+	font-family: Brush Script MT;
+	margin-right: 0px;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+
+a.active, a:hover {
+	background: #808080;
+	transition: all .5s;
+}
+
+#check{
+	display: none;
+}
+
+
+
+.Donation {
+	position: center;
+	border-color: black;
+	margin-left: 0px;
+	margin-top: 270px;
+	z-index: -1;
+	object-fit: fill;
+}
+
+
+h2 {
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-bottom: 30px;
+	font-size: 50px;
+	font: bold;
+
+}
+
+h3 {
+	margin-top: 300px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	font-size: 50px;
+	font: bold;
+
+}
+
+.texth3 {
+	margin-left: 180px;
+	margin-bottom: 100px;
+	font-size: 25px;
+	border: solid;
+	border-color: ghostwhite;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	color: ghostwhite;
+	
+}
+
+.texth4 {
+	margin-left: 450px;
+	font-size: 25px;
+	border: solid;
+	border-color: ghostwhite;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	color: ghostwhite;
+}
+
+.texth5 {
+	margin-left: 600px;
+	font-size: 25px;
+	border: solid;
+	border-color: ghostwhite;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	color: ghostwhite;
+}
+
+
+.back {
+	position: absolute;
+	z-index: -1;
+	-wedkit-mask-image: linear-gradient(black, rgba(0,0,0,0));
+	mask-image: linear-gradient(black, rgba(0,0,0,0));
+	object-fit: fill;
+}
+
+
+@keyframes slideInLeft {
+	from {
+		transform: translateX(-300px);
+	}
+
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@font-face {
+	font-family: amsterdam;
+	src:url(amsterdam.ttf);
+}
+
+.texth3, h3, .about1, .box1, h4, .abouttext, h2, .code {
+	animation-name: slideInLeft;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
+
+
+.about1 {
+	margin-left: 30px;
+	
+}
+
+.box1 {
+	width: 1200px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+h4 {
+	font-size: 200%;
+}
+
+.abouttext {
+	margin-bottom: 50px;
+}
+
+.teletext {
+	margin-left: 220px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+.code {
+	float: right;
+	margin-top: 100px;
+
+}
